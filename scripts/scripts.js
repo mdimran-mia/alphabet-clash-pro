@@ -10,7 +10,7 @@ function continueGame(){
     const alphabet = getARandomAlphabet();
 
     const currentAlphabetElement = document.getElementById('current-alphabet');
-    currentAlphabetElement.innerText = alphabet.toUpperCase();
+    currentAlphabetElement.innerText = alphabet;
 
     setBackgroundColorById(alphabet);
     removeBackgroundColorById(alphabet);
